@@ -1,0 +1,74 @@
+.contenu1 {
+  padding-bottom: 40px;
+  background-color: #424242;
+}
+
+.contenu2 {
+  padding-bottom: 40px;
+  background-color: #202020;
+}
+
+h2 {
+  color: white;
+  font-size: 12px;
+  padding-top: 30px;
+
+}
+
+p {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+.paragraphe1 {
+  padding-top: 25px;
+}
+
+.paragraphe2 {
+  padding-top: 25px;
+}
+
+.paragraphe3 {
+  padding-top: 25px;
+}
+
+.paragraphe4 {
+  padding-top: 25px;
+}
+
+.paragraphe5 {
+  padding-top: 30px;
+}
+
+#acer {
+  padding-top: 20px;
+}
+
+#lien1 {
+  text-decoration: underline;
+}
+
+#france {
+  padding-top: 25px;
+}
