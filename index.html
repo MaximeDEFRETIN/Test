@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/layout.css" />
 </head>
 <body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <div class="container-fluid">
     <header class="row">
       <div id="logo" class="col-md-2 text-center">
@@ -23,7 +23,7 @@
           <ul class="nav navbar-nav">
             <li> <a href="#">store</a> </li>
             <li> <a id="link-menu-forHome" href="#">pour la maison</a> </li>
-            <li> <a href="#link-menu-forOffice">pour le travail</a> </li>
+            <li> <a id="link-menu-forOffice" href="#">pour le travail</a> </li>
             <li> <a href="#">IOT</a> </li>
             <li> <a href="#">assistance</a> </li>
           </ul>
@@ -37,10 +37,12 @@
         </nav>
       </div><!-- navbar -->
 
-      <div id="menu-forHome" class="row"><!-- menu pour la maison -->
+      <div id="menu-forHome" class="row"><!-- menu "pour la maison" -->
         <div class="col-md-offset-1 col-md-2">
           <ul>
-            <li>test</li>
+            <li>pour</li>
+            <li>la</li>
+            <li>maison</li>
           </ul>
         </div>
         <div class="col-md-5">
@@ -51,7 +53,24 @@
         </div>
         <div class="col-md-4">
         </div>
-      </div><!-- menu pour la maison -->
+      </div><!-- menu ""pour la maison" -->
+      <div id="menu-forOffice" class="row"><!-- menu "pour le bureau" -->
+        <div class="col-md-offset-1 col-md-2">
+          <ul>
+            <li>pour</li>
+            <li>le</li>
+            <li>bureau</li>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+        </div>
+      </div><!-- menu "pour le bureau" -->
 
     </header>
     <div id="slider" class="row">
@@ -112,5 +131,6 @@
     </footer>
   </div>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

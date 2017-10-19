@@ -8,23 +8,27 @@
 #footer-row  div { min-height: 320px; border: 1px dashed black;}
 #gutter { background-color: #202020; min-height: 115px;}
 
-#menu-forHome  {
-display: none;
-}
-#menu-forHome > div:first-child {
 
+/*******************************************************************************
+MOUSEOVER MENUS
+*******************************************************************************/
+#menu-forHome, #menu-forOffice  {
+display: none;
+position: absolute;
+width: 100%;
+z-index: 1;
+top: 80px;
+background-color: #fff;
+}
+#menu-forHome > div:first-child, #menu-forOffice > div > div {
   background-color: pink;
   min-height: 300px;
 }
-#menu-forHome > div > div {
+#menu-forHome > div > div, #menu-forOffice > div:last-child {
   background-color: grey;
   min-height: 300px;
 }
-#menu-forHome > div:last-child {
+#menu-forHome > div:last-child, #menu-forOffice > div:first-child {
   background-color: red;
   min-height: 300px;
-}
-
-#link-menu-forHome a:hover {
-
 }
