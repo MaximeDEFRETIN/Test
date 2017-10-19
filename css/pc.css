@@ -1,0 +1,9 @@
+.flexpc{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items:center;
+}
+.subtitle{
+  text-align:center;
+}
