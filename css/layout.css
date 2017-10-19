@@ -1,7 +1,30 @@
-#logo img {width: auto;
-height: 48px;}
-#newStyle-laptop > div {min-height:470px; background-color: grey; border: 1px dashed black;}
-#newStyle-thumbs > div {min-height:280px; background-color: green; border: 1px dashed black;}
-#footer-row {background-color: #424242;}
+#logo img {
+  width: auto;
+  height: 48px;
+}
+#newStyle-laptop > div { min-height:470px; background-color: grey; border: 1px dashed black;}
+#newStyle-thumbs > div { min-height:280px; background-color: green; border: 1px dashed black;}
+#footer-row { background-color: #424242;}
 #footer-row  div { min-height: 320px; border: 1px dashed black;}
-#gutter {background-color: #202020; min-height: 115px;}
+#gutter { background-color: #202020; min-height: 115px;}
+
+#menu-forHome  {
+display: none;
+}
+#menu-forHome > div:first-child {
+
+  background-color: pink;
+  min-height: 300px;
+}
+#menu-forHome > div > div {
+  background-color: grey;
+  min-height: 300px;
+}
+#menu-forHome > div:last-child {
+  background-color: red;
+  min-height: 300px;
+}
+
+#link-menu-forHome a:hover {
+
+}
