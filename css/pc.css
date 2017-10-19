@@ -8,3 +8,6 @@
 .subtitle{
   text-align:center;
 }
+div[class="col-xs-3"]:hover{
+  background-color:#FAFAFA;
+}
