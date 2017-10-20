@@ -8,16 +8,12 @@
 .subtitle{
   text-align:center;
 }
-/*Je cible les images*/
-div.col-xs-3 img  {
-  display: block;
-  height: 310px; width: 310px;
-}
-/*Appliquer une transition à un élément, on cible l'élément et on ajout l'effet*/
 /*J'applique la transition sur la balise img contenu dans la div*/
-div.col-xs-3 img {transition: all 0.5s ease-in-out; }
+div.col-lg-6 img {transition: all 0.5s ease-in-out;
+width:100%; height:100%;
+margin-left: auto; margin-right: auto;}
 /*J'applique une couleur et une transition au passage de la souris*/
-div.col-xs-3 img:hover {
+div.col-lg-6 img:hover {
   background-color: #FAFAFA;
-  transform:scale(1.1);
+  transform:scale(1.05);
 }
