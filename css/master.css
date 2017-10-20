@@ -1,3 +1,6 @@
+.container-fluid {
+
+}
 .contenu1 {
   padding-bottom: 40px;
   background-color: #424242;
@@ -71,4 +74,9 @@ a:focus {
 
 #france {
   padding-top: 25px;
+}
+
+figure {
+  text-align: center;
+  
 }
