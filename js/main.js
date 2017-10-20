@@ -3,21 +3,22 @@ $(document).ready(function(){
     $("a#link-menu-forHome").mouseover(function() {
         $("div#menu-forOffice").hide();
         $("div#menu-forHome").show();
-        console.log('show');
     });
-
+    // $("a#link-menu-forHome").mouseout(function() {
+    //     $("div#menu-forHome").hide();
+    // });
     $("div#menu-forHome").on( "mouseleave", function() {
        $("div#menu-forHome").hide();
-       console.log('show');
     });
     //menu-forOffice
     $("a#link-menu-forOffice").mouseover(function() {
         $("div#menu-forHome").hide();
         $("div#menu-forOffice").show();
-        console.log('show');
     });
+    // $("a#link-menu-forOffice").mouseout(function() {
+    //     $("div#menu-forOffice").hide();
+    // });
     $("div#menu-forOffice").on( "mouseleave", function() {
        $("div#menu-forOffice").hide();
-       console.log('show');
     });
 });

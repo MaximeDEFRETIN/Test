@@ -6,6 +6,7 @@
   <title>ACER Homepage</title>
   <!-- FONTS -->
   <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <!-- STYLESHEETS -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/master.css" />
@@ -15,10 +16,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <div class="container-fluid">
     <header class="row">
-      <div id="logo" class="col-md-2 text-center">
-        <a href="index.html"><img src="img/logo.svg" title="le logo acer" alt="le logo acer"></a>
+      <div id="logo" class="col-md-2">
+        <a href="index.html"><img src="img/logo.svg" title="le logo acer" alt="le logo acer" ></a>
       </div>
-      <div class="col-md-10"><!-- navbar -->
+      <div id="navigation" class="col-md-10"><!-- navbar -->
         <nav class="navbar navbar-default">
           <ul class="nav navbar-nav">
             <li> <a href="#">store</a> </li>
@@ -38,20 +39,41 @@
       </div><!-- navbar -->
 
       <div id="menu-forHome" class="row"><!-- menu "pour la maison" -->
-        <div class="col-md-offset-1 col-md-2">
+        <div id="menu-list" class="col-md-offset-1 col-md-2">
           <ul>
-            <li>pour</li>
-            <li>la</li>
-            <li>maison</li>
+            <li><a  title="Ordinateurs portables" href="#">Ordinateurs portables<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            <li><a title="Ordinateurs de Bureau" href="#">Ordinateurs de Bureau<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            <li><a title="Tablettes" href="#">Tablettes<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            <li><a title="Smartphones" href="#">Smartphones<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            <li><a title="Écrans" href="#">Écrans<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            <li><a title="Vidéo-Projecteurs" href="#">Vidéo-Projecteurs<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            <li><a  title="Wearables" href="#">Wearables<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            <li><a title="Accessoires" href="#">Accessoires<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            <li><a title="Virtual &amp; Mixed Reality" href="#">Virtual &amp; Mixed Reality<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            <li><a title="Gaming" href="#">Gaming<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            <li><a title="Cloud" href="#" target="_blank">Cloud<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
           </ul>
         </div>
-        <div class="col-md-5">
+        <div id="menu-products" class="col-md-5">
           <div class="row">
-            <div class="col-md-6"></div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <a href="#"><img src="img/Aspire-7_preview.png" alt="" /><br/><span>Switch 7 Black Edition</span></a>
+            </div>
+            <div class="col-md-6">
+                <a href="#"><img src="img/NITRO 5_preview.png" alt="" /><br/><span>Switch 7 Black Edition</span></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+                <a href="#"><img src="img/nitro_5_spin_NP515-51_preview.png" alt="" /><br/><span>Switch 7 Black Edition</span></a>
+            </div>
+            <div class="col-md-6">
+                <a href="#"><img src="img/Switch_7_preview.png" alt="" /><br/><span>Switch 7 Black Edition</span></a>
+            </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div id="menu-plus" class="col-md-4">
+          <a href="#">test</a>
         </div>
       </div><!-- menu ""pour la maison" -->
       <div id="menu-forOffice" class="row"><!-- menu "pour le bureau" -->
