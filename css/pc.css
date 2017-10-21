@@ -1,0 +1,19 @@
+.flexpc{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items:center;
+  flex-wrap: wrap;
+}
+.subtitle{
+  text-align:center;
+}
+/*J'applique la transition sur la balise img contenu dans la div*/
+div.col-lg-6 img {transition: all 0.5s ease-in-out;
+width:100%; height:100%;
+margin-left: auto; margin-right: auto;}
+/*J'applique une couleur et une transition au passage de la souris*/
+div.col-lg-6 img:hover {
+  background-color: #FAFAFA;
+  transform:scale(1.05);
+}
